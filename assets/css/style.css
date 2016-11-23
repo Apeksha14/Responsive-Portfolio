@@ -1,0 +1,821 @@
+/** Style.css **/
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+html {
+
+    position: relative;
+    min-height: 100%;
+
+}
+
+body{
+
+	line-height: 150%;
+	background-image: url("../images/seamless_paper_texture.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	padding:0;
+	margin:0 auto;
+	top:0;left:0;right: 0;
+
+}
+
+header
+{
+	background-color: #ffffff;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	border-bottom:2px solid #cccccc;
+	height: 80px;
+	width: 100%;
+
+}
+
+h1{
+	float:left;
+	padding-top:20px;
+	width: 280px;
+	background-color: #4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	height: 80px;
+	text-align: center;
+	color:#ffffff;
+
+}
+
+h2{
+	color: #20B2AA;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Georgia","Times New Roman",Times,serif;
+}
+
+h3{
+	
+	color: #20B2AA;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Georgia","Times New Roman",Times,serif;
+
+}
+
+hr{
+
+	border:1px solid;
+	border-color: #cccccc;
+	margin-top: 20px;
+
+}
+
+nav{
+
+	float:right;
+	padding-top:20px;
+	margin-right: 250px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+a{
+
+	font-size: 18px ;
+	padding: 5px;
+	color:#777777;
+	text-decoration: none;
+}
+
+aside{
+
+	position: absolute;
+	z-index: 1;
+
+}
+#bio-image{
+
+	float:left;
+	height:200px;
+	width:200px;
+	margin-right: 20px;
+	padding-top:20px;
+
+}
+
+p{
+
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:20px;
+
+}
+
+.header{
+
+
+	margin-left: 255px;
+}
+
+#main-bio{
+
+	float: left;
+	width:650px;
+	min-height: 100%;
+	padding:20px;
+	padding-bottom: 90px;
+	margin-top:50px;
+	margin-left:250px;
+	margin-right: 0;
+	background-color: #ffffff;
+	border:1px solid #dddddd;	
+
+}
+
+#connect-bio{
+	
+	float:left;
+	width:270px;
+	height:200px;
+	padding:20px;
+	margin:50px;
+	background-color: #ffffff;
+	color:#777777;
+	border: 1px solid #dddddd;
+
+ }
+
+#git-image,
+#link-image,
+#so-image
+{
+	margin-top: 10px;
+	height:62px;
+	width:62px;
+
+}
+
+#name,#emailid{
+
+	width: 610px;
+	height: 30px;
+	color:#cccccc;
+	font-size: 15px;
+
+}
+
+#msg{
+
+	color:#cccccc;
+	font-size: 15px;
+
+}
+
+#sub{
+
+	background-color: #4aaaa5;
+	border:none;
+	width: 100px;
+	height: 35px;
+	color:#fff;
+    font-size:15px;
+    margin-top: 20px;
+
+}
+
+#namesec,#emailidsec,#msgsec{
+
+	margin-bottom: 10px;
+
+}
+
+aside{
+
+	position: absolute;
+	z-index: 1;
+}
+
+#hangman
+{	
+	width: 284px;
+	height: 175px;
+	margin-top: 20px;	
+
+}
+
+#rpggame{
+
+	width: 284px;
+	height: 175px;
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+#trivia{
+	
+	width: 284px;
+	height: 175px;
+	margin-top: 35px;
+	
+}
+
+#rutgers{
+
+	width: 284px;
+	height: 175px;
+	margin-top: 35px;
+	margin-left: 40px;
+	
+	
+
+}
+
+#rockpaper{
+		
+	width: 284px;
+	height: 180px;
+	margin-top: 35px;
+	
+}
+
+#hangmandiv
+{
+	
+	position: relative;
+	width: 284px;
+	height: 50px;
+	background-color: #4aaaa5;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	text-align: center;
+	padding-top:10px;
+	color:#ffffff;
+	margin-top: 135px;
+	z-index: 2;
+	
+}
+
+#rpggamediv{
+	
+	position: relative;
+	width: 284px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 135px;
+	padding-left: 20px;
+	margin-left: 40px;
+	z-index: 2;
+	
+	
+	
+}
+
+#triviadiv{
+
+	position: relative;
+	width: 284px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 150px;
+	z-index: 2;
+
+}
+
+#rutgersdiv{
+
+	position: relative;
+	width: 284pX;
+	height: 50px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	margin-top: 150px;
+	text-align: center;
+	padding-left: 20px;
+	margin-left: 40px;
+	z-index: 2;
+
+
+	
+}
+
+#rockpaperdiv{
+	
+	position: relative;
+	width: 284px;
+	height: 50px;
+	font-family: "Georgia","Times New Roman",Times,serif;
+	font-size: 22px;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 150px;
+	z-index: 2;
+	
+}
+
+#portfolio1{
+
+	float:left;
+}
+
+#portfolio2{
+
+	float: left;
+
+}
+
+#portfolio3{
+
+	clear: both;
+	margin-top: 20px;
+	float:left;
+	overflow: auto;
+
+
+}
+
+#portfolio4{
+
+	float: left;
+	margin-top: 20px;
+
+}
+
+#portfolio5{
+
+	margin-top: 20px;
+	overflow: auto;
+	clear: both;
+	float:left;
+
+}
+
+footer{
+
+	clear: both;
+	position: absolute;
+	width:100%;
+	left:0;
+	bottom: 0;
+	border-top: 8px solid #20B2AA;
+	background-color: #666666;
+	color:#cccccc;
+	text-align: center;
+	height: 90px;
+	padding-top:25px;
+	font-size: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
+
+}
+
+@media screen and (max-width:980px){
+
+body{
+
+	width:980px;
+}
+header{
+
+	height: 60px;
+}
+h1{
+	font-size:20px;
+	padding-top: 15px;
+	width: 200px;
+	height: 60px; 
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+	padding-top:10px;
+	margin-left:10px;
+}
+hr{
+	margin-top: 15px;
+}
+a{
+	font-size: 14px;
+	padding:2px;
+	
+}
+nav{
+
+	margin-right: 370px;
+}
+p{
+	font-size: 14px;
+}
+
+.header{
+	margin-left: 100px;
+	height:40px;
+}
+
+#bio-image{
+
+	width:250px;
+	height: 250px;
+	margin-bottom: 20px;
+
+}
+
+#main-bio{
+
+	width:300px;
+	margin-left:100px;
+	margin-top:30px;
+	padding-top:20px;
+
+}
+
+#connect-bio{
+
+	margin: 30px;
+	width:180px;
+	padding:5px;
+	height: 150px;
+}
+
+#git-image{
+	margin-left:10px;
+	height:42px;
+	width:42px;
+}
+
+#so-image
+{
+	margin: 0;
+	padding:0;
+	height:42px;
+	width:42px;
+
+}
+#link-image{
+	margin:0;
+	padding:0;
+	height:42px;
+	width:42px;
+}
+
+#portfolio2
+{
+	margin-top: 35px;
+	margin-left: 0;
+
+}
+
+
+#hangman,#rpggame,
+#trivia,#rutgers,
+#rockpaper{
+
+	height:200px;
+	width:250px;
+	margin-left: 0;
+
+}
+
+#hangmandiv,#rpggamediv
+{
+
+	height: 50px;
+	width: 250px;
+	margin-top:150px;
+	margin-left: 0;
+	font-size: 18px;
+
+}
+
+#triviadiv,#rutgersdiv,
+#rockpaperdiv{
+
+	height: 50px;
+	width: 250px;
+	margin-top:170px;
+	margin-left: 0;
+	font-size: 18px;
+
+}
+#name,#emailid{
+
+	width: 255px;
+	height: 30px;
+}
+
+#msg{
+
+	width: 255px;
+}
+
+footer{
+	
+	position: relative;
+
+}
+	
+}
+@media screen and (max-width:768px){
+	
+body{
+
+	width:768px;
+}
+header{
+	width: 768px;
+	height: 60px;
+}
+h1{
+	font-size:20px;
+	padding-top: 15px;
+	width: 200px;
+	height: 60px; 
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+	padding-top:10px;
+	margin-left:10px;
+}
+hr{
+	margin-top: 15px;
+}
+a{
+	font-size: 14px;
+	
+}
+nav{
+	margin-right:40px;
+	padding-left:20px;
+}
+p{
+	font-size: 14px;
+}
+
+.header{
+	margin-left: 20px;
+	height:40px;
+}
+
+#bio-image{
+
+	width:250px;
+	height: 250px;
+	margin-bottom: 20px;
+
+}
+
+#main-bio{
+
+	width:715px;
+	margin:20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding-top:20px;
+
+}
+
+#connect-bio{
+	
+	width: 715px;
+	margin: 20px;
+	padding:5px;
+	height: 150px;
+}
+
+#git-image{
+	margin-left:10px;
+	height:42px;
+	width:42px;
+}
+
+#so-image
+{
+	margin: 0;
+	padding:0;
+	height:42px;
+	width:42px;
+
+}
+#link-image{
+	margin:0;
+	padding:0;
+	height:42px;
+	width:42px;
+}
+#name,#emailid{
+
+	width: 670px;
+	height: 30px;
+}
+
+#msg{
+
+	width: 670px;
+}
+
+#portfolio2
+{
+	margin:0;
+	margin-left:40px;
+
+}
+#portfolio4{
+	margin-top:20px;
+	margin-left:40px;
+}
+
+
+#hangman,#rpggame,
+#trivia,#rutgers,
+#rockpaper{
+
+	height:200px;
+	width:310px;
+	margin-left: 0;
+
+}
+
+#hangmandiv,#rpggamediv
+{
+
+	height: 50px;
+	width: 310px;
+	margin-top:150px;
+	margin-left: 0;
+	font-size: 18px;
+
+}
+
+#triviadiv,#rutgersdiv,
+#rockpaperdiv{
+
+	height: 50px;
+	width: 310px;
+	margin-top:170px;
+	margin-left: 0;
+	font-size: 18px;
+
+}
+
+
+footer{
+
+position: relative;
+}
+	
+}
+@media screen and (max-width:640px){
+
+body{
+
+	width:640px;
+}
+header{
+
+	position: static;
+	width: 640px;
+	height: 130px;
+}
+h1{
+	width: 640px;
+	font-size:20px;
+	padding-top: 15px;	
+	height: 60px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+	padding-top:10px;
+	margin-left:10px;
+}
+hr{
+	margin-top: 15px;
+}
+a{
+	font-size: 16px;
+	
+	
+}
+nav{
+
+	margin:0 ;
+	width: 640px;
+	text-align: center;
+}
+p{
+	font-size: 14px;
+}
+
+.header{
+
+	margin:0;
+	width:640px;
+	height:40px;
+}
+
+#bio-image{
+
+	width:250px;
+	height: 250px;
+	margin-bottom: 20px;
+
+}
+
+#main-bio{
+
+	width:600px;
+	margin:20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding-top:20px;
+
+}
+
+#connect-bio{
+	
+	width: 600px;
+	margin: 20px;
+	padding:5px;
+	height: 150px;
+}
+
+#git-image{
+	margin-left:10px;
+	height:42px;
+	width:42px;
+	padding: 0;
+}
+
+#so-image
+{
+	margin: 0;
+	padding:0;
+	height:42px;
+	width:42px;
+
+}
+#link-image{
+	margin:0;
+	padding:0;
+	height:42px;
+	width:42px;
+}
+
+#name,#emailid{
+
+	width: 550px;
+	height: 30px;
+}
+
+#msg{
+
+	width: 550px;
+}
+
+#portfolio2,#portfolio4{
+
+	margin-left: 0;
+	margin-top:30px;
+}
+
+#hangman,#rpggame,
+#trivia,#rutgers,
+#rockpaper{
+
+	height:200px;
+	width:310px;
+	margin-left: 0;
+
+}
+
+
+
+footer{
+
+position: relative;
+}
+	
+}
